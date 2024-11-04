@@ -1,0 +1,25 @@
+{
+    "type": "module",
+    "name": "cse341-vf",
+    "version": "1.0.0",
+    "description": "CSE 341 Web Services repository",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "node --watch server.js"
+    },
+    "dependencies": {
+        "express": "^4.21.1",
+        "mongodb": "^6.10.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vicentemferrer/cse341-vf.git"
+    },
+    "author": "Vicente Ferrer",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/vicentemferrer/cse341-vf/issues"
+    },
+    "homepage": "https://github.com/vicentemferrer/cse341-vf#readme"
+}
