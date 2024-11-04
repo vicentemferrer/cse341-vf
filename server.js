@@ -1,8 +1,10 @@
 import express from 'express'
+import { existsSync } from 'node:fs'
+import { cwd } from 'node:process'
 
 import activitiesRoute from './routes/activities.router.js'
 
-process.loadEnvFile()
+if (existsSync(`${cwd()}/.env`)) process.loadEnvFile()
 
 const app = express()
 
