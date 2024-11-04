@@ -1,9 +1,8 @@
 import express from 'express'
-import { loadEnvFile } from 'node:process'
 
 import activitiesRoute from './routes/activities.router.js'
 
-loadEnvFile()
+process.loadEnvFile()
 
 const app = express()
 
