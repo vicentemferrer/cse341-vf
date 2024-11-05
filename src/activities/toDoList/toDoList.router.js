@@ -1,5 +1,5 @@
 import { Router } from "express"
-import { createTask, deleteTask, listAllTasks, readTask, updateTask } from './controllers/todolist.controller.js'
+import { createTask, deleteTask, listAllTasks, readTask, updateTask } from './controllers/toDoList.controller.js'
 
 const router = new Router()
 

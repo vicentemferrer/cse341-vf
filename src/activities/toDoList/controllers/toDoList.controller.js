@@ -1,4 +1,4 @@
-import Task from '../models/todolist.model.js'
+import Task from '../models/toDoList.model.js'
 
 function listAllTasks(req, res) {
     Task.find({}).then((task) => res.json(task)).catch((err) => res.json(err))
