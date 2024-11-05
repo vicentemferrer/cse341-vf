@@ -8,20 +8,11 @@
         "start": "node server.js",
         "dev": "node --watch --env-file=.env server.js"
     },
-    "dependencies": {
-        "body-parser": "^1.20.3",
-        "express": "^4.21.1",
-        "mongodb": "^6.10.0",
-        "mongoose": "^8.8.0"
-    },
+    "dependencies": {},
     "repository": {
         "type": "git",
         "url": "https://github.com/vicentemferrer/cse341-vf.git"
     },
     "author": "Vicente Ferrer",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/vicentemferrer/cse341-vf/issues"
-    },
-    "homepage": "https://github.com/vicentemferrer/cse341-vf#readme"
+    "license": "ISC"
 }

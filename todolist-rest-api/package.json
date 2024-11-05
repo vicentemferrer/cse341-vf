@@ -1,0 +1,18 @@
+{
+    "type": "module",
+    "name": "todolist-rest-api",
+    "version": "1.0.0",
+    "description": "Lesson 01 To-Do List REST API",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "node --watch --env-file=.env app.js"
+    },
+    "author": "Vicente Ferrer",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.3",
+        "express": "^4.21.1",
+        "mongoose": "^8.8.0"
+    }
+}
