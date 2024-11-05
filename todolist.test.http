@@ -1,0 +1,23 @@
+### List All Tasks
+GET http://localhost:3000/activities/todolist/tasks
+
+### Create Task
+POST http://localhost:3000/activities/todolist/tasks 
+Content-Type: application/x-www-form-urlencoded
+
+name=Complete the project report
+
+### Read Task
+GET http://localhost:3000/activities/todolist/tasks/<taskId>
+
+### Update Task
+PUT http://localhost:3000/activities/todolist/tasks/<taskId>
+Content-Type: application/x-www-form-urlencoded
+
+status=ongoing
+
+### Delete Task
+DELETE http://localhost:3000/activities/todolist/tasks/<taskId>
+
+### URL Error Handler
+GET http://localhost:3000/activities/todolist/
