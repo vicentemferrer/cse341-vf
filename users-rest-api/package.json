@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "name": "users-rest-api",
+  "version": "1.0.0",
+  "description": "Lesson 03 Users REST API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch --env-file=.env app.js"
+  },
+  "author": "Vicente Ferrer",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "body-parser": "^1.20.3"
+  }
+}
