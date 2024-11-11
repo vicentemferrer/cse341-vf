@@ -1,0 +1,26 @@
+### Get books
+GET http://localhost:3000/books
+
+### Get book
+GET http://localhost:3000/book/<isbn>
+
+### Add book
+POST http://localhost:3000/book
+Content-Type: application/json
+
+{
+    "isbn": "1",
+    "title": "Book"
+}
+
+### Edit book
+PUT http://localhost:3000/book/<isbn>
+Content-Type: application/json
+
+{
+    "isbn": "1",
+    "title": "News"
+}
+
+### Delete book
+DELETE http://localhost:3000/book/<isbn>
