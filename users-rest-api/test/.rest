@@ -1,0 +1,20 @@
+### List all
+GET http://localhost:3000/
+
+### Get user
+GET http://localhost:3000/<user_id>
+
+### New user
+POST http://localhost:3000/
+Content-Type: application/x-www-form-urlencoded
+
+name=jana&password=password4&profession=counselor&id=4
+
+### Delete user
+DELETE http://localhost:3000/<user_id>
+
+### Update user
+PUT http://localhost:3000/<user_id>
+Content-Type: application/x-www-form-urlencoded
+
+name=jana&password=password4&profession=president&id=4
