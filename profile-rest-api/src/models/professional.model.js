@@ -1,26 +1,23 @@
-import Database from "../db/mongodb.manager.js"
+import Database from '../db/mongodb.manager.js';
 
 async function getUser() {
     try {
-        const db = await Database.getDatabase()
-        const [user, _] = await db.collection('user').find().toArray()
+        const db = await Database.getDatabase();
+        const [user, _] = await db.collection('user').find().toArray();
 
-        return user
+        return user;
     } catch (err) {
-        console.error(err)
+        console.error(err);
     }
 }
 
 async function insertUser(user) {
     try {
-        const db = await Database.getDatabase()
-        db.collection('user').insertOne(user)
+        const db = await Database.getDatabase();
+        db.collection('user').insertOne(user);
     } catch (err) {
-        console.error(err)
+        console.error(err);
     }
 }
 
-export {
-    getUser,
-    insertUser
-}
+export { getUser, insertUser };

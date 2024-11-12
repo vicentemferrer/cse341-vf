@@ -1,9 +1,9 @@
-import { Router } from "express"
+import { Router } from 'express';
 
-import { getProfileData } from "../controllers/professional.controller.js"
+import { getProfileData } from '../controllers/professional.controller.js';
 
-const router = new Router()
+const router = new Router();
 
-router.get('/', getProfileData)
+router.get('/', getProfileData);
 
-export default router
+export default router;

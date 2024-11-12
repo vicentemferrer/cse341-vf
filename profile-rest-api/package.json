@@ -1,17 +1,17 @@
 {
-  "type": "module",
-  "name": "profile-rest-api",
-  "version": "1.0.0",
-  "description": "Lesson 02 REST API",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js",
-    "dev": "node --watch --env-file=.env app.js"
-  },
-  "author": "Vicente Ferrer",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.21.1",
-    "mongodb": "^6.10.0"
-  }
+    "type": "module",
+    "name": "profile-rest-api",
+    "version": "1.0.0",
+    "description": "Lesson 02 REST API",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "node --watch --env-file=.env app.js"
+    },
+    "author": "Vicente Ferrer",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.21.1",
+        "mongodb": "^6.10.0"
+    }
 }
