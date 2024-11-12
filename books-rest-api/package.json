@@ -9,7 +9,8 @@
     "dev": "node --watch --env-file=.env app.js",
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
-    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+    "swagger": "node ./swagger.js"
   },
   "keywords": [],
   "author": "Vicente Ferrer",
@@ -17,13 +18,15 @@
   "dependencies": {
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.14.0",
     "eslint": "^9.14.0",
     "eslint-plugin-prettier": "^5.2.1",
     "globals": "^15.12.0",
-    "prettier": "^3.3.3"
+    "prettier": "^3.3.3",
+    "swagger-autogen": "^2.23.7"
   }
 }
